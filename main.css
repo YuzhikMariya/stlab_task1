@@ -45,6 +45,8 @@ nav :first-child{
     border-radius: 10%;
 }
 
+/* ------------------------------MAIN IMAGE------------------------------------------------------- */
+
 .img_table {
     background: url(img/main.jpg) center/cover no-repeat;
     width: 100%;
@@ -85,11 +87,18 @@ nav :first-child{
     background-color: rgb(182, 83, 83);
 }
 
+/* ------------------------------MORE INFO------------------------------------------------------- */
+
 .section_more_info{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 0px;
+}
+
+.section_more_info .btn{
+    font-size: 16px;
+    padding: 16px;
 }
 
 .section_more_info div h1{
@@ -108,4 +117,150 @@ nav :first-child{
 
 .btn_more_info h4{
     margin: 0px;
+}
+
+/* ------------------------------ITEMS------------------------------------------------------- */
+
+.section_items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.div_item{
+    display: flex; 
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 2% 3%;
+}
+
+.div_item img{
+    align-self: center;
+    width: 30px;
+    height: 30px;
+    padding: 30px;
+    border-radius: 100%;
+    border: 3px solid rgb(201, 201, 201);
+}
+
+.div_item div{
+    padding: 0 5%;
+}
+
+.div_item div h4{
+    margin-top: 10%;
+    margin-bottom: 0px;
+}
+
+.div_item div p{
+    margin-top: 1%;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 20px;
+    color: rgb(165, 165, 165);
+}
+
+/* ------------------------------SUBSCRIBE------------------------------------------------------- */
+
+.section_subscribe h1{
+    display: inline;
+    color: white;
+}
+
+.section_subscribe{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(94, 94, 94);
+    align-items: center;
+    padding: 0% 3%;
+}
+
+.input_personal_data{
+    padding: 10px;
+    width: 28%;
+    border-radius: 5px;
+    border: 1px solid rgb(179, 179, 179);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 11px;
+}
+
+.btn{
+    color: white;
+    background-color: rgb(206, 79, 79);
+    font-family: sans-serif;
+    font-stretch: ultra-condensed;
+    border: 0px;
+    padding: 6px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+/* ------------------------------PEOPLE------------------------------------------------------- */
+
+.people{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0;
+}
+
+.person{
+    width: 23%;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.person img{
+    width: 100%;
+}
+
+.person div{
+    padding: 7%;
+}
+
+.person div h5{
+    margin: 0px;
+}
+
+.person div p{
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(179, 179, 179);
+    
+}
+
+/* ------------------------------FOOTER------------------------------------------------------- */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+
+.contact a, .contact p{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+}
+
+.contact{
+    width: 23%;
+}
+
+.contact h5{
+    margin-bottom: 0px;
+}
+
+.copyrights p{
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.followus{
+    display: inline-block;
+    width: 45%;
+}
+
+.followus img{
+    width: 10%;
 }
