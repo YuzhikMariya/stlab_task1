@@ -1,0 +1,368 @@
+body{
+    padding: 0 calc(50% - 460px);
+    font-family: sans-serif;
+    font-stretch: ultra-condensed;
+    color: rgb(114, 110, 110);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo{
+    font-size: 80%;
+    padding: 2%;
+}
+
+.logo h1{
+    margin-bottom: 0px;
+}
+
+.logo p{
+    margin-top: 0px;
+}
+
+nav{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2%;
+}
+
+nav a{
+    padding: 5% 3% 5% 3%;
+    text-decoration: none;
+    color: rgb(112, 109, 109);
+    text-align: center;
+}
+
+nav :first-child{
+    background-color: rgb(224, 105, 115);
+    color: white;
+    border-radius: 10%;
+}
+
+/* ------------------------------MAIN IMAGE------------------------------------------------------- */
+
+.img_table {
+    background: url(img/main.jpg) center/cover no-repeat;
+    width: 100%;
+    height: 300px;
+    border-spacing: 0;
+}
+
+.img_table td{
+    vertical-align: bottom;
+    width: 50%;
+    height: 50%;
+    padding-bottom: 6px;
+}
+
+.img_table tr:first-child td:first-child{
+    background-color:rgba(0, 0, 0, .6);
+}
+
+.img_table tr:first-child td:last-child{
+    background-color:rgba(0, 0, 0, .4);
+}
+
+.img_table tr:last-child td:first-child{
+    background-color:rgba(0, 0, 0, .2);
+}
+
+.img_table td p{
+
+    color: white;
+    margin: 0px;
+    padding: 5px;
+    display: inline;
+    opacity: 1;
+    background-color:black;
+}
+
+.img_table tr:last-child td:last-child p{
+    background-color: rgb(182, 83, 83);
+}
+
+/* ------------------------------MORE INFO------------------------------------------------------- */
+
+.section_more_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.section_more_info .btn{
+    font-size: 16px;
+    padding: 16px;
+}
+
+.section_more_info div h1{
+    margin-bottom: 0px;
+}
+
+.section_more_info div p{
+    margin-top: 0px;
+}
+
+/* ------------------------------ITEMS------------------------------------------------------- */
+
+.section_items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.div_item{
+    display: flex; 
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 2% 3%;
+}
+
+.div_item img{
+    align-self: center;
+    width: 30px;
+    height: 30px;
+    padding: 30px;
+    border-radius: 100%;
+    border: 3px solid rgb(201, 201, 201);
+}
+
+.div_item div{
+    padding: 0 5%;
+}
+
+.div_item div h4{
+    margin-top: 10%;
+    margin-bottom: 0px;
+}
+
+.div_item div p{
+    margin-top: 1%;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 20px;
+    color: rgb(165, 165, 165);
+}
+
+/* ------------------------------SUBSCRIBE------------------------------------------------------- */
+
+.section_subscribe h1{
+    display: inline;
+    color: white;
+}
+
+.section_subscribe{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(94, 94, 94);
+    align-items: center;
+    padding: 0% 3%;
+}
+
+.input_personal_data{
+    padding: 10px;
+    width: 28%;
+    border-radius: 5px;
+    border: 1px solid rgb(179, 179, 179);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 11px;
+}
+
+.btn{
+    color: white;
+    background-color: rgb(206, 79, 79);
+    font-family: sans-serif;
+    font-stretch: ultra-condensed;
+    border: 0px;
+    padding: 6px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+/* ------------------------------PEOPLE------------------------------------------------------- */
+
+.people{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0;
+}
+
+.person{
+    width: 23%;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.person img{
+    width: 100%;
+}
+
+.person div{
+    padding: 7%;
+}
+
+.person div h5{
+    margin: 0px;
+}
+
+.person div p{
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(179, 179, 179);
+
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow-y: hidden;
+    
+}
+
+/* ------------------------------FOOTER------------------------------------------------------- */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+
+.contact a, .contact p{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+}
+
+.contact{
+    width: 23%;
+}
+
+.contact h5{
+    margin-bottom: 0px;
+}
+
+.copyrights p{
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.followus{
+    display: inline-block;
+    width: 45%;
+}
+
+.followus img{
+    width: 10%;
+}
+
+
+
+/* -----------------------------------------SCREEN < 550px ---------------------------------------- */
+
+@media (max-width: 550px) {
+    body{
+        padding: 0;
+    }
+
+    header{
+        display: block;
+        padding: 10px;
+    }
+
+    .logo{
+        text-align: center;
+    }
+
+    nav{
+        display: block;
+        width: 100%;
+    }
+
+    nav a{
+        display: block;
+    }
+
+    /* ------------------------------MAIN IMAGE------------------------------------------------------- */
+    .img_table {
+        background: url(img/main_mobile.jpg) center/cover no-repeat;
+    }
+
+    .img_table td{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+
+    .img_table td p{
+        width: max-content;
+    }
+
+    /* ------------------------------MORE INFO------------------------------------------------------- */
+
+    .section_more_info{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    /* ----------------------------------ITEMS------------------------------------------------------- */
+
+    .section_items{
+        flex-direction: column;
+    }
+ 
+    .div_item{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* ------------------------------SUBSCRIBE------------------------------------------------------- */
+
+    .section_subscribe{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .input_personal_data{
+        width: 80%;
+        margin: 2%;
+    }
+
+    .btn{
+        margin-bottom: 2%;
+    }
+
+    /* ------------------------------PEOPLE------------------------------------------------------- */
+
+    .people{
+        flex-direction: column;
+    }
+
+    .person{
+        width: 100%;
+        text-align: center;
+    }
+
+    /* ------------------------------FOOTER------------------------------------------------------- */
+
+    footer{
+        flex-direction: column;
+    }
+
+    .contact a, .contact p{
+        font-size: 10px;
+    }
+
+    .contact{
+        text-align: center;
+        width: 100%;
+    }
+
+}
