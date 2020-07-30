@@ -109,16 +109,6 @@ nav :first-child{
     margin-top: 0px;
 }
 
-.btn_more_info{
-    padding: 1%;
-    color: white;
-    background-color: rgb(182, 83, 83);
-}
-
-.btn_more_info h4{
-    margin: 0px;
-}
-
 /* ------------------------------ITEMS------------------------------------------------------- */
 
 .section_items{
@@ -225,6 +215,11 @@ nav :first-child{
     font-size: 13px;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(179, 179, 179);
+
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow-y: hidden;
     
 }
 
@@ -263,4 +258,111 @@ footer{
 
 .followus img{
     width: 10%;
+}
+
+
+
+/* -----------------------------------------SCREEN < 550px ---------------------------------------- */
+
+@media (max-width: 550px) {
+    body{
+        padding: 0;
+    }
+
+    header{
+        display: block;
+        padding: 10px;
+    }
+
+    .logo{
+        text-align: center;
+    }
+
+    nav{
+        display: block;
+        width: 100%;
+    }
+
+    nav a{
+        display: block;
+    }
+
+    /* ------------------------------MAIN IMAGE------------------------------------------------------- */
+    .img_table {
+        background: url(img/main_mobile.jpg) center/cover no-repeat;
+    }
+
+    .img_table td{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+
+    .img_table td p{
+        width: max-content;
+    }
+
+    /* ------------------------------MORE INFO------------------------------------------------------- */
+
+    .section_more_info{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    /* ----------------------------------ITEMS------------------------------------------------------- */
+
+    .section_items{
+        flex-direction: column;
+    }
+ 
+    .div_item{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* ------------------------------SUBSCRIBE------------------------------------------------------- */
+
+    .section_subscribe{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .input_personal_data{
+        width: 80%;
+        margin: 2%;
+    }
+
+    .btn{
+        margin-bottom: 2%;
+    }
+
+    /* ------------------------------PEOPLE------------------------------------------------------- */
+
+    .people{
+        flex-direction: column;
+    }
+
+    .person{
+        width: 100%;
+        text-align: center;
+    }
+
+    /* ------------------------------FOOTER------------------------------------------------------- */
+
+    footer{
+        flex-direction: column;
+    }
+
+    .contact a, .contact p{
+        font-size: 10px;
+    }
+
+    .contact{
+        text-align: center;
+        width: 100%;
+    }
+
 }
