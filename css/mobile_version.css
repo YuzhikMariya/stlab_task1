@@ -1,0 +1,89 @@
+@media (max-width: 550px) {
+
+    body{
+        padding: 0;
+    }
+    
+    header{
+        display: block;
+        padding: 2%;
+    }
+    
+    .logo{
+        text-align: center;
+    }
+    
+    nav{
+        display: block;
+        width: 100%;
+    }
+    
+    .menu_item{
+        display: block;
+    }
+    
+    nav :first-child{
+        border-radius: 100%;
+    }
+    
+    .main_image {
+        background: url(../img/main_mobile.jpg) center/cover no-repeat;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    
+    .main_image_part{
+        width: 100%;
+    }
+    
+    .more_info_section{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .all_advantages{
+        flex-direction: column;
+    }
+    
+    .advantage{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .subscribe_section{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .input_personal_data{
+        width: 80%;
+        margin: 2%;
+    }
+    
+    .btn{
+        margin-bottom: 2%;
+    }
+    
+    .people{
+        flex-direction: column;
+    }
+    
+    .person{
+        width: 100%;
+        text-align: center;
+    }
+    
+    footer{
+        flex-direction: column;
+    }
+    
+    .contact_info{
+        font-size: 10px;
+    }
+    
+    .contact{
+        text-align: center;
+        width: 100%;
+    }
+}

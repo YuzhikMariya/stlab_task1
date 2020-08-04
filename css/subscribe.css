@@ -1,0 +1,25 @@
+.subscribe_section h1{
+    display: inline;
+    color: var(--light-text-color);
+}
+
+.subscribe_section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--main-text-color);
+    align-items: center;
+    padding: 0 3% 0 0;
+}
+
+.input_personal_data{
+    padding: 1%;
+    width: 28%;
+    border-radius: 0.2vw;
+    border: 1px solid var(--main-text-color);
+    font-family: "Noto Sans JP";
+    font-size: 11px;
+}
+
+.subscribe_section .btn{
+    padding: 1.1vh 1.6vw;
+}
