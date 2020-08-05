@@ -21,8 +21,8 @@ body{
     background-color: var(--btn-color);
     font-family: "Roboto Condensed";
     border: 0%;
-    padding: 1vh 1vw;
-    border-radius: 0.3vw;
+    padding: 1em 1em;
+    border-radius: 0.3em;
     border-width: 0;
     font-weight: bold;
     font-size: 70%;

@@ -6,7 +6,7 @@
     
     header{
         display: block;
-        padding: 2%;
+        padding: 1em;
     }
     
     .logo{
@@ -58,11 +58,11 @@
     
     .input_personal_data{
         width: 80%;
-        margin: 2%;
+        margin: 0.5em;
     }
     
     .btn{
-        margin-bottom: 2%;
+        margin-bottom: 0.5em;
     }
     
     .people{

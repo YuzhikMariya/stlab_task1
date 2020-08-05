@@ -1,7 +1,7 @@
 footer{
     display: flex;
     justify-content: space-between;
-    padding: 1% 0 5% 0;
+    padding: 0.7em 0 1em 0;
 }
 
 .contact_info{
@@ -16,12 +16,12 @@ footer{
 }
 
 .contact_header{
-    margin-bottom: 0%;
+    margin-bottom: 0;
 }
 
 .copyrights_info{
-    margin: 0%;
-    margin-top: 2%;
+    margin: 0;
+    margin-top: 0.7em;
 }
 
 .followus{

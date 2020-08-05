@@ -29,7 +29,7 @@
 .main_image_part p{
     color: var(--light-text-color);
     margin: 0px;
-    padding: 1.5%;
+    padding: 0.3em;
     opacity: 1;
     background-color:var(--dark-bg-color);
 }
