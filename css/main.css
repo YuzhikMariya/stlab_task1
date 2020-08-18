@@ -1,0 +1,29 @@
+:root {
+    --main-text-color: rgb(94, 94, 94);
+    --secondary-text-color: rgb(182, 182, 182);
+    --border-color: rgb(224, 224, 224);
+    --btn-color: rgb(206, 79, 79);
+    --low-opacity--color: rgba(0, 0, 0, .2);
+    --medium-opacity--color: rgba(0, 0, 0, .4);
+    --high-opacity--color: rgba(0, 0, 0, .6);
+    --light-text-color: white;
+    --dark-bg-color: black;
+}
+
+body{
+    padding: 0 calc(50% - 475px);
+    font-family: "Roboto Condensed";
+    color: var(--main-text-color);
+}
+
+.btn{
+    color: var(--light-text-color);
+    background-color: var(--btn-color);
+    font-family: "Roboto Condensed";
+    border: 0%;
+    padding: 1em 1em;
+    border-radius: 0.3em;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 70%;
+}

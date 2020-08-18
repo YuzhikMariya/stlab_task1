@@ -1,0 +1,20 @@
+.more_info_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2em 0 1.4em 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.more_info_section .btn{
+    font-size: 16px;
+    padding: 0.8em;
+}
+
+.more_info_header{
+    margin-bottom: 0;
+}
+
+.more_info_text{
+    margin-top: 0;
+}
